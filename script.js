@@ -5,6 +5,14 @@ const person = {
   age: 80,
 };
 
+// Create a reference to players
+const team = players;
+
+// Create a copy of players
+const team1 = [...players];
+
+// Create a copy of the person object
+const cap1 = { ...person };
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
 window.players = players;
